@@ -53,7 +53,7 @@ const JobDetails = () => {
                         companyLogo={data[0].employer_logo}
                         jobTitle={data[0].job_title}
                         companyName={data[0].employer_name}
-                        Location={data[0].job_country}
+                        location={data[0].job_country}
                     />
 
                     <JobTabs
